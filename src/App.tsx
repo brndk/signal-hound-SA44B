@@ -92,7 +92,7 @@ const Hero = () => (
             MADE IN USA
           </div>
           <img 
-            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B-USB-Spectrum-Analyzer.png" 
+            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B_1.jpg" 
             alt="Signal Hound SA44B" 
             className="w-full max-w-[320px] h-auto drop-shadow-xl"
             referrerPolicy="no-referrer"
