@@ -127,7 +127,7 @@ const Features = () => (
   <section id="features" className="py-20 bg-white">
     <div className="max-w-7xl mx-auto px-10">
       <div className="mb-12">
-        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Технічні переваги</h2>
+        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Технічні переваги Signal Hound SA44B</h2>
         <div className="w-12 h-1 bg-brand-orange" />
       </div>
       <div className="grid md:grid-cols-3 gap-6">
@@ -203,7 +203,7 @@ const SpecificationsTable = () => (
   <section id="specs" className="py-20 bg-white">
     <div className="max-w-7xl mx-auto px-10">
       <div className="mb-10">
-        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Повні специфікації</h2>
+        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Повна специфікація Signal Hound SA44B</h2>
         <div className="w-12 h-1 bg-brand-orange" />
       </div>
       <div className="high-density-grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
