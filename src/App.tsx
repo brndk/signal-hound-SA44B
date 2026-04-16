@@ -232,7 +232,7 @@ const CTA = () => (
     <div className="max-w-7xl mx-auto px-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col">
-          <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Вартість пристрою</span>
+          <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Ціна Signal Hound SA44B</span>
           <span className="text-4xl font-extrabold text-ink">$1,195.00</span>
         </div>
         <div className="flex flex-wrap gap-4">
