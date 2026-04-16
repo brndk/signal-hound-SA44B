@@ -165,7 +165,7 @@ const SoftwareShowcase = () => (
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="bg-white p-2 rounded border border-grey-border shadow-sm">
           <img 
-            src="https://signalhound.com/wp-content/uploads/2018/03/Spike-Software-Screenshot.jpg" 
+            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B_5.jpg" 
             alt="Spike Software" 
             className="w-full rounded"
             referrerPolicy="no-referrer"
