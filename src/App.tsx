@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useState, useEffect } from 'react';
 import { motion } from "motion/react";
 import { 
   Cpu, 
@@ -266,6 +267,40 @@ const Footer = () => (
   </footer>
 );
 
+const FloatingCTA = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) setIsVisible(true);
+      else setIsVisible(false);
+    };
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5, y: 20 }}
+      animate={{ 
+        opacity: isVisible ? 1 : 0, 
+        scale: isVisible ? 1 : 0.5,
+        y: isVisible ? 0 : 20 
+      }}
+      className="fixed bottom-8 right-8 z-[100] pointer-events-none"
+    >
+      <button 
+        onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
+        className="pointer-events-auto bg-brand-orange text-white px-8 py-4 rounded-full font-bold shadow-2xl shadow-brand-orange/40 flex items-center gap-3 hover:scale-105 active:scale-95 transition-all group"
+      >
+        <Zap className="w-5 h-5 fill-current" />
+        <span className="uppercase tracking-widest text-sm">Замовити зараз</span>
+        <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+      </button>
+    </motion.div>
+  );
+};
+
 export default function App() {
   return (
     <div className="min-h-screen selection:bg-brand-orange/20">
@@ -276,9 +311,12 @@ export default function App() {
         <Features />
         <SoftwareShowcase />
         <SpecificationsTable />
-        <CTA />
+        <div id="cta">
+          <CTA />
+        </div>
       </main>
       <Footer />
+      <FloatingCTA />
     </div>
   );
 }
