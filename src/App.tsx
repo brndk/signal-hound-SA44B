@@ -97,9 +97,9 @@ const Hero = () => (
             MADE IN USA
           </div>
           <img 
-            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B-USB-Spectrum-Analyzer.png" 
+            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B_1.jpg" 
             alt="Signal Hound SA44B" 
-            className="w-full max-w-[320px] h-auto drop-shadow-xl"
+            className="w-full max-w-[600px] h-auto drop-shadow-xl"
             referrerPolicy="no-referrer"
           />
         </motion.div>
@@ -132,7 +132,7 @@ const Features = () => (
   <section id="features" className="py-20 bg-white">
     <div className="max-w-7xl mx-auto px-10">
       <div className="mb-12">
-        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Технічні переваги</h2>
+        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Технічні переваги Signal Hound SA44B</h2>
         <div className="w-12 h-1 bg-brand-orange" />
       </div>
       <div className="grid md:grid-cols-3 gap-6">
@@ -170,7 +170,7 @@ const SoftwareShowcase = () => (
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="bg-white p-2 rounded border border-grey-border shadow-sm">
           <img 
-            src="https://signalhound.com/wp-content/uploads/2018/03/Spike-Software-Screenshot.jpg" 
+            src="https://signalhound.com/wp-content/uploads/2014/05/SA44B_5.jpg" 
             alt="Spike Software" 
             className="w-full rounded"
             referrerPolicy="no-referrer"
@@ -208,7 +208,7 @@ const SpecificationsTable = () => (
   <section id="specs" className="py-20 bg-white">
     <div className="max-w-7xl mx-auto px-10">
       <div className="mb-10">
-        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Повні специфікації</h2>
+        <h2 className="text-2xl font-bold text-brand-blue mb-2 uppercase tracking-tight">Повна специфікація Signal Hound SA44B</h2>
         <div className="w-12 h-1 bg-brand-orange" />
       </div>
       <div className="high-density-grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
@@ -237,7 +237,7 @@ const CTA = () => (
     <div className="max-w-7xl mx-auto px-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col">
-          <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Вартість пристрою</span>
+          <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Ціна Signal Hound SA44B</span>
           <span className="text-4xl font-extrabold text-ink">$1,195.00</span>
         </div>
         <div className="flex flex-wrap gap-4">
